@@ -19,7 +19,6 @@ class Field extends React.Component<Props> {
     this.props.onChange(this.props.name, value);
   };
   render() {
-    console.log('render', this.props.name);
     const {
       component: Component,
       onChangeAttr,
